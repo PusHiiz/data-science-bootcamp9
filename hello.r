@@ -9,3 +9,5 @@ df <- read_csv("filename.csv")
 
 df %>%
   filter(col > 100)
+
+print(df)
